@@ -234,3 +234,8 @@ build-*/
 *.opendb
 __build-*
 .vc/
+
+############################
+# Personal - Visual Studio
+############################
+[Mm]edia/

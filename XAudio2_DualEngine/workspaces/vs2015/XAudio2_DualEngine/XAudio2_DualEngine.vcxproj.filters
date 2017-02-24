@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\XAudio2_DualEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\WaveFile\WaveFile.cpp">
+      <Filter>External Libraries\WaveFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\dxerr\dxerr.cpp">
+      <Filter>External Libraries\dxerr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\XAudio2Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\XAudio2Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\PcmSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\External\WaveFile\WaveFile.h">
+      <Filter>External Libraries\WaveFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\dxerr\dxerr.h">
+      <Filter>External Libraries\dxerr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\XAudio2Engine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\XAudio2Context.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PcmSound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\Common\Utils.h">
+      <Filter>External Libraries\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61ae982a-b371-456a-ab09-e105f710b833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{f8126f12-331b-4c5d-a407-9bf3eac98421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries\dxerr">
+      <UniqueIdentifier>{9792e324-e0ca-40d2-9daa-b3d2706eeb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries\WaveFile">
+      <UniqueIdentifier>{d7b973c5-7a44-43d5-875d-c77598976c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries\Common">
+      <UniqueIdentifier>{960cb110-2ebd-49ce-ae1e-de65055f69c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
