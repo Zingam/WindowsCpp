@@ -235,6 +235,7 @@ build-*/
 __build-*
 __install-*
 .vc/
+.vs/
 
 ############################
 # Personal - Visual Studio

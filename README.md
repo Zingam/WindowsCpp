@@ -6,6 +6,7 @@ Experimental Apps with Windows C/C++
 ```
 
 * ClangOnWindows - Compiling a simple Windows desktop program with Clang
+* ComApp - Implementing COM interfaces and a COM smart pointer
 * DebugOutput_printf - printf to Visual Studio Debug Ouput window
 * XAudio2_DualEngine - Playing simple sounds using two XAudio2 objects
 
