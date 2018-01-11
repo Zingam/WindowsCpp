@@ -18,7 +18,7 @@ template <typename Vehicle>
 std::pair<IVehicle*, HRESULT>
 CreateVehicle ()
 {
-    auto vehicle = (new (std::nothrow) Vehicle);
+    auto vehicle = new (std::nothrow) Vehicle;
 
     if (nullptr == vehicle)
     {
